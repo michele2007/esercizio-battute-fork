@@ -1,0 +1,14 @@
+#header{
+    background-color: #dfffc4;
+    border-bottom: 1px black solid;
+    box-shadow: 0px 2px 10px;
+}
+#header figure>img{
+    padding: 40px 10px 20px 10px;
+}
+
+#header h1{
+    line-height: auto;
+    text-align: left;
+    letter-spacing: 0.5%;
+}
