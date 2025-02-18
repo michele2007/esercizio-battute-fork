@@ -1,5 +1,5 @@
 #main {
-    background-color: #29AAE1;
+    background-color: #f7a100;
     padding: 20px;
 }
 
@@ -14,7 +14,7 @@
 
 #main form > input {
     text-align: center;
-    background-color: #19c232;
+    background-color: #ffc400;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 15px;
     padding: 15px 25px;

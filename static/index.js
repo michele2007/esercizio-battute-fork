@@ -1,9 +1,11 @@
 let url = "https://api.chucknorris.io/jokes/random";
 let risorsa;
 
-//gestione url
+//url
 let choose = document.getElementById("scelta");
+
 choose.addEventListener("change", function() {
+
     let valore = parseInt(this.value); 
     
     switch (valore) {
@@ -63,31 +65,39 @@ choose.addEventListener("change", function() {
 
 
 let btn = document.querySelector("#generate")
+
 btn.addEventListener("click", function (e) {
+
     e.preventDefault()
 
     risorsa = fetch(url).then(
+
         function (resp) {
+
             console.log(risorsa)
+
             console.log(resp)
 
             return resp.json()
         }
+
     ).then(
+
         function (data) {
+
             document.querySelector("#jokes").innerHTML = "\' " + data.value + "\'";
         }
+
     ).catch(
+
         function (err) {
+
             console.log(err)
+        
         }
     )
 
     console.log(risorsa)
-    // stati delle promises: 
-    // 1. stato pending
-    // 2. stato rejected
-    // 3. stato fulfilled
 })
 
     

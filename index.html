@@ -12,20 +12,27 @@
     <div class="flex flex-col h-screen">
         <header id="header" class="flex justify-center items-center md:justify-start ">
 
-            <figure>
-
-            </figure>
             <h1 class="oi-regular text-xl lg:text-[40px] md:text-[25px]">Chuck Norris Jokes</h1>
+
         </header>
+
         <main id="main" class="flex flex-col justify-center items-center grow">
+
             <form action="" method="get">
-                <label class="text-base odor-mean-chey-regular text-white lg:text-[25px] md:text-[20px]">Click on the text to generete a random Chuck Norris Jokes</label>
+
+                <h3 class="text-base odor-mean-chey-regular text-white lg:text-[25px] md:text-[20px]">Click on the button to generete a random Chuck Norris Jokes</h3>
+
                 <input type="button" name="btn" class="odor-mean-chey-regular text-base text-white lg:text-[25px] md:text-[20px]" id="generate" value="Loads Jokes">
+
             </form>
+
             <label id="jokes" class="odor-mean-chey-regular text-white text-center lg:text-[30px] md:text-[25px]"></label>
+
             <section id="category">
-                <label class="text-base odor-mean-chey-regular text-white lg:text-[25px] md:text-[20px]" for="scelta">choose jokes catergoty:</label>
-                <select class="text-base lg:text-[25px] md:text-[20px] odor-mean-chey-regular text-white bg-[#EB5B25]" id="scelta">
+
+                <h2 class="text-base odor-mean-chey-regular text-white lg:text-[25px] md:text-[20px]" for="scelta">choose jokes catergoty:</h2>
+
+                <select class=" odor-mean-chey-regular text-white bg-[#EB5B25]" id="scelta">
                     <option value= 0 >All</option>
                     <option value= 1>Animal</option>
                     <option value= 2>Career</option>
@@ -46,9 +53,7 @@
                 </select>
             </section>
         </main>
-        <footer class="h-auto bg-[#29AAE1] text-white text-xs text-center odor-mean-chey-regular">
-            <a href="https://api.chucknorris.io" target="_blank"><p>https://api.chucknorris.io</p></a>
-        </footer>
+            <a href="https://api.chucknorris.io" target="_blank"><p>https://api.chucknorris.io</p></a>  
     </div>
     <script src="static/index.js"></script>
 </body>
